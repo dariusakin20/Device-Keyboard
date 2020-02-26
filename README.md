@@ -20,7 +20,7 @@ To run it, open the file location on the cmd (Command Line) window and input mvn
 
 ## Introduction
 
-For this coding challenge, the user needs to input half written words so the program can output suggestions to them. To start, I created a class called "Typing". This class contains variables that hold the half completed the user  inputted, the uses of those words, the confidences of the words, and the corrections. A confidence is the likelihood of a word being returned more likely then others.
+For this coding challenge, the user needs to input half written words so the program can output suggestions to them. To start, I created a class called "Typing.java". This class contains variables that hold the half completed the user  inputted, the uses of those words, the confidences of the words, and the corrections. A confidence is the likelihood of a word being returned more likely then others.
 
 ### Consturctor
 The constructor outputs to the user to complete the sentence to see the auto complete keyboard and the sentence that needs to be completed. 
@@ -29,7 +29,7 @@ The constructor outputs to the user to complete the sentence to see the auto com
 In the getword() method, a while loop is inserted to make sure only correct inputs are put. The user is prompted to input a half written word, such as "th", to get suggestions from the system. The user then inputs which word they mean and an if-statement is there for the multiple conditions. Depending on whatever word the user picked the confidence for that word is increased and the sentence is changed. Next is to type "ne", which gives suggestions as well and increases the confidence for whatever word increased too. Finally the user is prompted to input "th" again and depending on the confidence information obtained beforehand, outputs the word with the most confidence as the top choice. The sentence is then completed and the method getConfidence() shows every word used and the amount of times it was used. 
 
 ### Main method
-With the tested methods, in the main method, the object "AutoComplete" is intialized and used to run all the methods. 
+In the "Keyboard.java" that is where the main method of the program is. With the tested methods, the object "AutoComplete" is intialized and used to run all the methods. 
 
 
 ## Authors
