@@ -18,7 +18,7 @@ Converted to bash compatible using [Maven](https://maven.apache.org/)
 To run it, open the file location on the cmd (Command Line) window and input mvn exec:java -Dexec.mainClass="Keyboard". This runs the main method of the code.
 
 
-## Instroduction
+## Introduction
 
 For this coding challenge, the user needs to input half written words so the program can output suggestions to them. To start, I created a class called "Typing". This class contains variables that hold the half completed the user  inputted, the uses of those words, the confidences of the words, and the corrections. A confidence is the likelihood of a word being returned more likely then others.
 
@@ -35,3 +35,5 @@ With the tested methods, in the main method, the object "AutoComplete" is intial
 ## Authors
 
 Darius Akinrimisi
+
+LinkedIn:(https://www.linkedin.com/in/dariusakinrimisi/)
