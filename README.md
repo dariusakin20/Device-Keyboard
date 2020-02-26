@@ -36,4 +36,4 @@ With the tested methods, in the main method, the object "AutoComplete" is intial
 
 Darius Akinrimisi
 
-LinkedIn:(https://www.linkedin.com/in/dariusakinrimisi/)
+My LinkedIn is: (https://www.linkedin.com/in/dariusakinrimisi/)
